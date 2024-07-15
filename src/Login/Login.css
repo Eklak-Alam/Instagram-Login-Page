@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+}
+
+.container{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.form{
+    min-height: 400px;
+    min-width: 350px;
+    text-align: center;
+    border: 1px solid rgba(221, 221, 221, 0.854);
+    padding: 2vw 2vw 1vw 2vw;
+}
+
+.form h1{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 3vw;
+    margin-bottom: 2vw;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form input{
+    width: 100%;
+    padding: 10px 8px;
+    margin: 5px  2vw;
+    border: 1px solid rgb(199, 199, 199);
+    outline: 1px solid rgb(241, 241, 241);
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: hsl(0, 0%, 97%);
+}
+
+form button{
+    width: 100%;
+    background-color: rgb(38, 63, 255);
+    border-radius: 5px;
+    padding: 5px 0;
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+form hr{
+    height: 2px solid black;
+}
+
+.signup{
+    border: 1px solid rgb(223, 223, 223);
+    min-width: 350px;
+    padding: 1.4vw 0;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.signup a{
+    color: blue;
+}
